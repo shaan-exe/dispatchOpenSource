@@ -675,7 +675,7 @@ if __name__ == "__main__":
     asyncio.set_event_loop(loop)
 
     async def main():
-        bot_task = asyncio.create_task(bot.start('MTM2OTExODEzMjU1MTAyNDg3MQ.GHysq4.X7218--E3jBER64-A8zea7DGlYLVaUnH6m9byI'))  
+        bot_task = asyncio.create_task(bot.start('sorrynoleakingmytokenlol'))  
 
         while not bot.is_ready():
             await asyncio.sleep(0.1)
