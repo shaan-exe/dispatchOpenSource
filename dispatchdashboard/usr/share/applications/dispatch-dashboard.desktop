@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Dispatch Dashboard
+Comment=Roleplay Dispatch Dashboard
+Exec=/usr/local/bin/dispatch-dashboard
+Icon=dispatch-dashboard
+Terminal=false
+Type=Application
+Categories=Utility;
