@@ -1,0 +1,3023 @@
+('/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+ 'Code/build/distributabledispatchdashboard/PYZ-00.pyz',
+ [('PySide6',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/PySide6/__init__.py',
+   'PYMODULE'),
+  ('PySide6.support',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/PySide6/support/__init__.py',
+   'PYMODULE'),
+  ('PySide6.support.deprecated',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/PySide6/support/deprecated.py',
+   'PYMODULE'),
+  ('__future__', '/usr/lib/python3.12/__future__.py', 'PYMODULE'),
+  ('_aix_support', '/usr/lib/python3.12/_aix_support.py', 'PYMODULE'),
+  ('_compat_pickle', '/usr/lib/python3.12/_compat_pickle.py', 'PYMODULE'),
+  ('_compression', '/usr/lib/python3.12/_compression.py', 'PYMODULE'),
+  ('_distutils_hack',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/_distutils_hack/__init__.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/_distutils_hack/override.py',
+   'PYMODULE'),
+  ('_py_abc', '/usr/lib/python3.12/_py_abc.py', 'PYMODULE'),
+  ('_pydatetime', '/usr/lib/python3.12/_pydatetime.py', 'PYMODULE'),
+  ('_pydecimal', '/usr/lib/python3.12/_pydecimal.py', 'PYMODULE'),
+  ('_pyi_rth_utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/PyInstaller/fake-modules/_pyi_rth_utils/__init__.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils.qt',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/PyInstaller/fake-modules/_pyi_rth_utils/qt.py',
+   'PYMODULE'),
+  ('_sitebuiltins', '/usr/lib/python3.12/_sitebuiltins.py', 'PYMODULE'),
+  ('_strptime', '/usr/lib/python3.12/_strptime.py', 'PYMODULE'),
+  ('_sysconfigdata__x86_64-linux-gnu',
+   '/usr/lib/python3.12/_sysconfigdata__x86_64-linux-gnu.py',
+   'PYMODULE'),
+  ('_threading_local', '/usr/lib/python3.12/_threading_local.py', 'PYMODULE'),
+  ('aiohappyeyeballs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohappyeyeballs/__init__.py',
+   'PYMODULE'),
+  ('aiohappyeyeballs._staggered',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohappyeyeballs/_staggered.py',
+   'PYMODULE'),
+  ('aiohappyeyeballs.impl',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohappyeyeballs/impl.py',
+   'PYMODULE'),
+  ('aiohappyeyeballs.types',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohappyeyeballs/types.py',
+   'PYMODULE'),
+  ('aiohappyeyeballs.utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohappyeyeballs/utils.py',
+   'PYMODULE'),
+  ('aiohttp',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/__init__.py',
+   'PYMODULE'),
+  ('aiohttp._cookie_helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_cookie_helpers.py',
+   'PYMODULE'),
+  ('aiohttp._websocket',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_websocket/__init__.py',
+   'PYMODULE'),
+  ('aiohttp._websocket.helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_websocket/helpers.py',
+   'PYMODULE'),
+  ('aiohttp._websocket.models',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_websocket/models.py',
+   'PYMODULE'),
+  ('aiohttp._websocket.reader',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_websocket/reader.py',
+   'PYMODULE'),
+  ('aiohttp._websocket.reader_py',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_websocket/reader_py.py',
+   'PYMODULE'),
+  ('aiohttp._websocket.writer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/_websocket/writer.py',
+   'PYMODULE'),
+  ('aiohttp.abc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/abc.py',
+   'PYMODULE'),
+  ('aiohttp.base_protocol',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/base_protocol.py',
+   'PYMODULE'),
+  ('aiohttp.client',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client.py',
+   'PYMODULE'),
+  ('aiohttp.client_exceptions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client_exceptions.py',
+   'PYMODULE'),
+  ('aiohttp.client_middleware_digest_auth',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client_middleware_digest_auth.py',
+   'PYMODULE'),
+  ('aiohttp.client_middlewares',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client_middlewares.py',
+   'PYMODULE'),
+  ('aiohttp.client_proto',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client_proto.py',
+   'PYMODULE'),
+  ('aiohttp.client_reqrep',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client_reqrep.py',
+   'PYMODULE'),
+  ('aiohttp.client_ws',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/client_ws.py',
+   'PYMODULE'),
+  ('aiohttp.compression_utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/compression_utils.py',
+   'PYMODULE'),
+  ('aiohttp.connector',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/connector.py',
+   'PYMODULE'),
+  ('aiohttp.cookiejar',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/cookiejar.py',
+   'PYMODULE'),
+  ('aiohttp.formdata',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/formdata.py',
+   'PYMODULE'),
+  ('aiohttp.hdrs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/hdrs.py',
+   'PYMODULE'),
+  ('aiohttp.helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/helpers.py',
+   'PYMODULE'),
+  ('aiohttp.http',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/http.py',
+   'PYMODULE'),
+  ('aiohttp.http_exceptions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/http_exceptions.py',
+   'PYMODULE'),
+  ('aiohttp.http_parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/http_parser.py',
+   'PYMODULE'),
+  ('aiohttp.http_websocket',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/http_websocket.py',
+   'PYMODULE'),
+  ('aiohttp.http_writer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/http_writer.py',
+   'PYMODULE'),
+  ('aiohttp.log',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/log.py',
+   'PYMODULE'),
+  ('aiohttp.multipart',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/multipart.py',
+   'PYMODULE'),
+  ('aiohttp.payload',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/payload.py',
+   'PYMODULE'),
+  ('aiohttp.payload_streamer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/payload_streamer.py',
+   'PYMODULE'),
+  ('aiohttp.resolver',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/resolver.py',
+   'PYMODULE'),
+  ('aiohttp.streams',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/streams.py',
+   'PYMODULE'),
+  ('aiohttp.tcp_helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/tcp_helpers.py',
+   'PYMODULE'),
+  ('aiohttp.tracing',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/tracing.py',
+   'PYMODULE'),
+  ('aiohttp.typedefs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/typedefs.py',
+   'PYMODULE'),
+  ('aiohttp.web',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web.py',
+   'PYMODULE'),
+  ('aiohttp.web_app',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_app.py',
+   'PYMODULE'),
+  ('aiohttp.web_exceptions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_exceptions.py',
+   'PYMODULE'),
+  ('aiohttp.web_fileresponse',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_fileresponse.py',
+   'PYMODULE'),
+  ('aiohttp.web_log',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_log.py',
+   'PYMODULE'),
+  ('aiohttp.web_middlewares',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_middlewares.py',
+   'PYMODULE'),
+  ('aiohttp.web_protocol',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_protocol.py',
+   'PYMODULE'),
+  ('aiohttp.web_request',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_request.py',
+   'PYMODULE'),
+  ('aiohttp.web_response',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_response.py',
+   'PYMODULE'),
+  ('aiohttp.web_routedef',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_routedef.py',
+   'PYMODULE'),
+  ('aiohttp.web_runner',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_runner.py',
+   'PYMODULE'),
+  ('aiohttp.web_server',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_server.py',
+   'PYMODULE'),
+  ('aiohttp.web_urldispatcher',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_urldispatcher.py',
+   'PYMODULE'),
+  ('aiohttp.web_ws',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/web_ws.py',
+   'PYMODULE'),
+  ('aiohttp.worker',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiohttp/worker.py',
+   'PYMODULE'),
+  ('aiosignal',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/aiosignal/__init__.py',
+   'PYMODULE'),
+  ('argparse', '/usr/lib/python3.12/argparse.py', 'PYMODULE'),
+  ('ast', '/usr/lib/python3.12/ast.py', 'PYMODULE'),
+  ('asyncio', '/usr/lib/python3.12/asyncio/__init__.py', 'PYMODULE'),
+  ('asyncio.base_events',
+   '/usr/lib/python3.12/asyncio/base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   '/usr/lib/python3.12/asyncio/base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   '/usr/lib/python3.12/asyncio/base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   '/usr/lib/python3.12/asyncio/base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants', '/usr/lib/python3.12/asyncio/constants.py', 'PYMODULE'),
+  ('asyncio.coroutines',
+   '/usr/lib/python3.12/asyncio/coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events', '/usr/lib/python3.12/asyncio/events.py', 'PYMODULE'),
+  ('asyncio.exceptions',
+   '/usr/lib/python3.12/asyncio/exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   '/usr/lib/python3.12/asyncio/format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures', '/usr/lib/python3.12/asyncio/futures.py', 'PYMODULE'),
+  ('asyncio.locks', '/usr/lib/python3.12/asyncio/locks.py', 'PYMODULE'),
+  ('asyncio.log', '/usr/lib/python3.12/asyncio/log.py', 'PYMODULE'),
+  ('asyncio.mixins', '/usr/lib/python3.12/asyncio/mixins.py', 'PYMODULE'),
+  ('asyncio.proactor_events',
+   '/usr/lib/python3.12/asyncio/proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols', '/usr/lib/python3.12/asyncio/protocols.py', 'PYMODULE'),
+  ('asyncio.queues', '/usr/lib/python3.12/asyncio/queues.py', 'PYMODULE'),
+  ('asyncio.runners', '/usr/lib/python3.12/asyncio/runners.py', 'PYMODULE'),
+  ('asyncio.selector_events',
+   '/usr/lib/python3.12/asyncio/selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto', '/usr/lib/python3.12/asyncio/sslproto.py', 'PYMODULE'),
+  ('asyncio.staggered', '/usr/lib/python3.12/asyncio/staggered.py', 'PYMODULE'),
+  ('asyncio.streams', '/usr/lib/python3.12/asyncio/streams.py', 'PYMODULE'),
+  ('asyncio.subprocess',
+   '/usr/lib/python3.12/asyncio/subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   '/usr/lib/python3.12/asyncio/taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks', '/usr/lib/python3.12/asyncio/tasks.py', 'PYMODULE'),
+  ('asyncio.threads', '/usr/lib/python3.12/asyncio/threads.py', 'PYMODULE'),
+  ('asyncio.timeouts', '/usr/lib/python3.12/asyncio/timeouts.py', 'PYMODULE'),
+  ('asyncio.transports',
+   '/usr/lib/python3.12/asyncio/transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock', '/usr/lib/python3.12/asyncio/trsock.py', 'PYMODULE'),
+  ('asyncio.unix_events',
+   '/usr/lib/python3.12/asyncio/unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   '/usr/lib/python3.12/asyncio/windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   '/usr/lib/python3.12/asyncio/windows_utils.py',
+   'PYMODULE'),
+  ('attr',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/__init__.py',
+   'PYMODULE'),
+  ('attr._cmp',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_cmp.py',
+   'PYMODULE'),
+  ('attr._compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_compat.py',
+   'PYMODULE'),
+  ('attr._config',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_config.py',
+   'PYMODULE'),
+  ('attr._funcs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_funcs.py',
+   'PYMODULE'),
+  ('attr._make',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_make.py',
+   'PYMODULE'),
+  ('attr._next_gen',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_next_gen.py',
+   'PYMODULE'),
+  ('attr._version_info',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/_version_info.py',
+   'PYMODULE'),
+  ('attr.converters',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/converters.py',
+   'PYMODULE'),
+  ('attr.exceptions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/exceptions.py',
+   'PYMODULE'),
+  ('attr.filters',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/filters.py',
+   'PYMODULE'),
+  ('attr.setters',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/setters.py',
+   'PYMODULE'),
+  ('attr.validators',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/attr/validators.py',
+   'PYMODULE'),
+  ('backports',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/backports/__init__.py',
+   'PYMODULE'),
+  ('base64', '/usr/lib/python3.12/base64.py', 'PYMODULE'),
+  ('bisect', '/usr/lib/python3.12/bisect.py', 'PYMODULE'),
+  ('bson',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/__init__.py',
+   'PYMODULE'),
+  ('bson._helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/_helpers.py',
+   'PYMODULE'),
+  ('bson.binary',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/binary.py',
+   'PYMODULE'),
+  ('bson.code',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/code.py',
+   'PYMODULE'),
+  ('bson.codec_options',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/codec_options.py',
+   'PYMODULE'),
+  ('bson.datetime_ms',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/datetime_ms.py',
+   'PYMODULE'),
+  ('bson.dbref',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/dbref.py',
+   'PYMODULE'),
+  ('bson.decimal128',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/decimal128.py',
+   'PYMODULE'),
+  ('bson.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/errors.py',
+   'PYMODULE'),
+  ('bson.int64',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/int64.py',
+   'PYMODULE'),
+  ('bson.json_util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/json_util.py',
+   'PYMODULE'),
+  ('bson.max_key',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/max_key.py',
+   'PYMODULE'),
+  ('bson.min_key',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/min_key.py',
+   'PYMODULE'),
+  ('bson.objectid',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/objectid.py',
+   'PYMODULE'),
+  ('bson.raw_bson',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/raw_bson.py',
+   'PYMODULE'),
+  ('bson.regex',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/regex.py',
+   'PYMODULE'),
+  ('bson.son',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/son.py',
+   'PYMODULE'),
+  ('bson.timestamp',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/timestamp.py',
+   'PYMODULE'),
+  ('bson.typings',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/typings.py',
+   'PYMODULE'),
+  ('bson.tz_util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/bson/tz_util.py',
+   'PYMODULE'),
+  ('bz2', '/usr/lib/python3.12/bz2.py', 'PYMODULE'),
+  ('calendar', '/usr/lib/python3.12/calendar.py', 'PYMODULE'),
+  ('colorsys', '/usr/lib/python3.12/colorsys.py', 'PYMODULE'),
+  ('concurrent', '/usr/lib/python3.12/concurrent/__init__.py', 'PYMODULE'),
+  ('concurrent.futures',
+   '/usr/lib/python3.12/concurrent/futures/__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   '/usr/lib/python3.12/concurrent/futures/_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   '/usr/lib/python3.12/concurrent/futures/process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   '/usr/lib/python3.12/concurrent/futures/thread.py',
+   'PYMODULE'),
+  ('configparser', '/usr/lib/python3.12/configparser.py', 'PYMODULE'),
+  ('contextlib', '/usr/lib/python3.12/contextlib.py', 'PYMODULE'),
+  ('contextvars', '/usr/lib/python3.12/contextvars.py', 'PYMODULE'),
+  ('copy', '/usr/lib/python3.12/copy.py', 'PYMODULE'),
+  ('csv', '/usr/lib/python3.12/csv.py', 'PYMODULE'),
+  ('ctypes', '/usr/lib/python3.12/ctypes/__init__.py', 'PYMODULE'),
+  ('ctypes._aix', '/usr/lib/python3.12/ctypes/_aix.py', 'PYMODULE'),
+  ('ctypes._endian', '/usr/lib/python3.12/ctypes/_endian.py', 'PYMODULE'),
+  ('ctypes.util', '/usr/lib/python3.12/ctypes/util.py', 'PYMODULE'),
+  ('ctypes.wintypes', '/usr/lib/python3.12/ctypes/wintypes.py', 'PYMODULE'),
+  ('dataclasses', '/usr/lib/python3.12/dataclasses.py', 'PYMODULE'),
+  ('datetime', '/usr/lib/python3.12/datetime.py', 'PYMODULE'),
+  ('decimal', '/usr/lib/python3.12/decimal.py', 'PYMODULE'),
+  ('difflib', '/usr/lib/python3.12/difflib.py', 'PYMODULE'),
+  ('dis', '/usr/lib/python3.12/dis.py', 'PYMODULE'),
+  ('discord',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/__init__.py',
+   'PYMODULE'),
+  ('discord._types',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/_types.py',
+   'PYMODULE'),
+  ('discord.abc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/abc.py',
+   'PYMODULE'),
+  ('discord.activity',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/activity.py',
+   'PYMODULE'),
+  ('discord.app_commands',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/__init__.py',
+   'PYMODULE'),
+  ('discord.app_commands.checks',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/checks.py',
+   'PYMODULE'),
+  ('discord.app_commands.commands',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/commands.py',
+   'PYMODULE'),
+  ('discord.app_commands.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/errors.py',
+   'PYMODULE'),
+  ('discord.app_commands.installs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/installs.py',
+   'PYMODULE'),
+  ('discord.app_commands.models',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/models.py',
+   'PYMODULE'),
+  ('discord.app_commands.namespace',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/namespace.py',
+   'PYMODULE'),
+  ('discord.app_commands.transformers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/transformers.py',
+   'PYMODULE'),
+  ('discord.app_commands.translator',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/translator.py',
+   'PYMODULE'),
+  ('discord.app_commands.tree',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/app_commands/tree.py',
+   'PYMODULE'),
+  ('discord.appinfo',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/appinfo.py',
+   'PYMODULE'),
+  ('discord.asset',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/asset.py',
+   'PYMODULE'),
+  ('discord.audit_logs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/audit_logs.py',
+   'PYMODULE'),
+  ('discord.automod',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/automod.py',
+   'PYMODULE'),
+  ('discord.backoff',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/backoff.py',
+   'PYMODULE'),
+  ('discord.channel',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/channel.py',
+   'PYMODULE'),
+  ('discord.client',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/client.py',
+   'PYMODULE'),
+  ('discord.colour',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/colour.py',
+   'PYMODULE'),
+  ('discord.components',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/components.py',
+   'PYMODULE'),
+  ('discord.context_managers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/context_managers.py',
+   'PYMODULE'),
+  ('discord.embeds',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/embeds.py',
+   'PYMODULE'),
+  ('discord.emoji',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/emoji.py',
+   'PYMODULE'),
+  ('discord.enums',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/enums.py',
+   'PYMODULE'),
+  ('discord.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/errors.py',
+   'PYMODULE'),
+  ('discord.ext', '-', 'PYMODULE'),
+  ('discord.ext.commands',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/__init__.py',
+   'PYMODULE'),
+  ('discord.ext.commands._types',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/_types.py',
+   'PYMODULE'),
+  ('discord.ext.commands.bot',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/bot.py',
+   'PYMODULE'),
+  ('discord.ext.commands.cog',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/cog.py',
+   'PYMODULE'),
+  ('discord.ext.commands.context',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/context.py',
+   'PYMODULE'),
+  ('discord.ext.commands.converter',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/converter.py',
+   'PYMODULE'),
+  ('discord.ext.commands.cooldowns',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/cooldowns.py',
+   'PYMODULE'),
+  ('discord.ext.commands.core',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/core.py',
+   'PYMODULE'),
+  ('discord.ext.commands.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/errors.py',
+   'PYMODULE'),
+  ('discord.ext.commands.flags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/flags.py',
+   'PYMODULE'),
+  ('discord.ext.commands.help',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/help.py',
+   'PYMODULE'),
+  ('discord.ext.commands.hybrid',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/hybrid.py',
+   'PYMODULE'),
+  ('discord.ext.commands.parameters',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/parameters.py',
+   'PYMODULE'),
+  ('discord.ext.commands.view',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ext/commands/view.py',
+   'PYMODULE'),
+  ('discord.file',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/file.py',
+   'PYMODULE'),
+  ('discord.flags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/flags.py',
+   'PYMODULE'),
+  ('discord.gateway',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/gateway.py',
+   'PYMODULE'),
+  ('discord.guild',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/guild.py',
+   'PYMODULE'),
+  ('discord.http',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/http.py',
+   'PYMODULE'),
+  ('discord.integrations',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/integrations.py',
+   'PYMODULE'),
+  ('discord.interactions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/interactions.py',
+   'PYMODULE'),
+  ('discord.invite',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/invite.py',
+   'PYMODULE'),
+  ('discord.member',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/member.py',
+   'PYMODULE'),
+  ('discord.mentions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/mentions.py',
+   'PYMODULE'),
+  ('discord.message',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/message.py',
+   'PYMODULE'),
+  ('discord.mixins',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/mixins.py',
+   'PYMODULE'),
+  ('discord.object',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/object.py',
+   'PYMODULE'),
+  ('discord.oggparse',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/oggparse.py',
+   'PYMODULE'),
+  ('discord.opus',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/opus.py',
+   'PYMODULE'),
+  ('discord.partial_emoji',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/partial_emoji.py',
+   'PYMODULE'),
+  ('discord.permissions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/permissions.py',
+   'PYMODULE'),
+  ('discord.player',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/player.py',
+   'PYMODULE'),
+  ('discord.poll',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/poll.py',
+   'PYMODULE'),
+  ('discord.presences',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/presences.py',
+   'PYMODULE'),
+  ('discord.raw_models',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/raw_models.py',
+   'PYMODULE'),
+  ('discord.reaction',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/reaction.py',
+   'PYMODULE'),
+  ('discord.role',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/role.py',
+   'PYMODULE'),
+  ('discord.scheduled_event',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/scheduled_event.py',
+   'PYMODULE'),
+  ('discord.shard',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/shard.py',
+   'PYMODULE'),
+  ('discord.sku',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/sku.py',
+   'PYMODULE'),
+  ('discord.soundboard',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/soundboard.py',
+   'PYMODULE'),
+  ('discord.stage_instance',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/stage_instance.py',
+   'PYMODULE'),
+  ('discord.state',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/state.py',
+   'PYMODULE'),
+  ('discord.sticker',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/sticker.py',
+   'PYMODULE'),
+  ('discord.subscription',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/subscription.py',
+   'PYMODULE'),
+  ('discord.team',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/team.py',
+   'PYMODULE'),
+  ('discord.template',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/template.py',
+   'PYMODULE'),
+  ('discord.threads',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/threads.py',
+   'PYMODULE'),
+  ('discord.types',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/__init__.py',
+   'PYMODULE'),
+  ('discord.types.activity',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/activity.py',
+   'PYMODULE'),
+  ('discord.types.appinfo',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/appinfo.py',
+   'PYMODULE'),
+  ('discord.types.audit_log',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/audit_log.py',
+   'PYMODULE'),
+  ('discord.types.automod',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/automod.py',
+   'PYMODULE'),
+  ('discord.types.channel',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/channel.py',
+   'PYMODULE'),
+  ('discord.types.command',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/command.py',
+   'PYMODULE'),
+  ('discord.types.components',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/components.py',
+   'PYMODULE'),
+  ('discord.types.embed',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/embed.py',
+   'PYMODULE'),
+  ('discord.types.emoji',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/emoji.py',
+   'PYMODULE'),
+  ('discord.types.gateway',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/gateway.py',
+   'PYMODULE'),
+  ('discord.types.guild',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/guild.py',
+   'PYMODULE'),
+  ('discord.types.integration',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/integration.py',
+   'PYMODULE'),
+  ('discord.types.interactions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/interactions.py',
+   'PYMODULE'),
+  ('discord.types.invite',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/invite.py',
+   'PYMODULE'),
+  ('discord.types.member',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/member.py',
+   'PYMODULE'),
+  ('discord.types.message',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/message.py',
+   'PYMODULE'),
+  ('discord.types.poll',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/poll.py',
+   'PYMODULE'),
+  ('discord.types.role',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/role.py',
+   'PYMODULE'),
+  ('discord.types.scheduled_event',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/scheduled_event.py',
+   'PYMODULE'),
+  ('discord.types.sku',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/sku.py',
+   'PYMODULE'),
+  ('discord.types.snowflake',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/snowflake.py',
+   'PYMODULE'),
+  ('discord.types.soundboard',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/soundboard.py',
+   'PYMODULE'),
+  ('discord.types.sticker',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/sticker.py',
+   'PYMODULE'),
+  ('discord.types.subscription',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/subscription.py',
+   'PYMODULE'),
+  ('discord.types.team',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/team.py',
+   'PYMODULE'),
+  ('discord.types.template',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/template.py',
+   'PYMODULE'),
+  ('discord.types.threads',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/threads.py',
+   'PYMODULE'),
+  ('discord.types.user',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/user.py',
+   'PYMODULE'),
+  ('discord.types.voice',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/voice.py',
+   'PYMODULE'),
+  ('discord.types.webhook',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/webhook.py',
+   'PYMODULE'),
+  ('discord.types.welcome_screen',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/welcome_screen.py',
+   'PYMODULE'),
+  ('discord.types.widget',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/types/widget.py',
+   'PYMODULE'),
+  ('discord.ui',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/__init__.py',
+   'PYMODULE'),
+  ('discord.ui.button',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/button.py',
+   'PYMODULE'),
+  ('discord.ui.dynamic',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/dynamic.py',
+   'PYMODULE'),
+  ('discord.ui.item',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/item.py',
+   'PYMODULE'),
+  ('discord.ui.modal',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/modal.py',
+   'PYMODULE'),
+  ('discord.ui.select',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/select.py',
+   'PYMODULE'),
+  ('discord.ui.text_input',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/text_input.py',
+   'PYMODULE'),
+  ('discord.ui.view',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/ui/view.py',
+   'PYMODULE'),
+  ('discord.user',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/user.py',
+   'PYMODULE'),
+  ('discord.utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/utils.py',
+   'PYMODULE'),
+  ('discord.voice_client',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/voice_client.py',
+   'PYMODULE'),
+  ('discord.voice_state',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/voice_state.py',
+   'PYMODULE'),
+  ('discord.webhook',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/webhook/__init__.py',
+   'PYMODULE'),
+  ('discord.webhook.async_',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/webhook/async_.py',
+   'PYMODULE'),
+  ('discord.webhook.sync',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/webhook/sync.py',
+   'PYMODULE'),
+  ('discord.welcome_screen',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/welcome_screen.py',
+   'PYMODULE'),
+  ('discord.widget',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/discord/widget.py',
+   'PYMODULE'),
+  ('dns',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/__init__.py',
+   'PYMODULE'),
+  ('dns._asyncbackend',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/_asyncbackend.py',
+   'PYMODULE'),
+  ('dns._asyncio_backend',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/_asyncio_backend.py',
+   'PYMODULE'),
+  ('dns._ddr',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/_ddr.py',
+   'PYMODULE'),
+  ('dns._features',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/_features.py',
+   'PYMODULE'),
+  ('dns._immutable_ctx',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/_immutable_ctx.py',
+   'PYMODULE'),
+  ('dns._trio_backend',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/_trio_backend.py',
+   'PYMODULE'),
+  ('dns.asyncbackend',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/asyncbackend.py',
+   'PYMODULE'),
+  ('dns.asyncquery',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/asyncquery.py',
+   'PYMODULE'),
+  ('dns.asyncresolver',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/asyncresolver.py',
+   'PYMODULE'),
+  ('dns.dnssectypes',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/dnssectypes.py',
+   'PYMODULE'),
+  ('dns.edns',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/edns.py',
+   'PYMODULE'),
+  ('dns.entropy',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/entropy.py',
+   'PYMODULE'),
+  ('dns.enum',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/enum.py',
+   'PYMODULE'),
+  ('dns.exception',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/exception.py',
+   'PYMODULE'),
+  ('dns.flags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/flags.py',
+   'PYMODULE'),
+  ('dns.grange',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/grange.py',
+   'PYMODULE'),
+  ('dns.immutable',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/immutable.py',
+   'PYMODULE'),
+  ('dns.inet',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/inet.py',
+   'PYMODULE'),
+  ('dns.ipv4',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/ipv4.py',
+   'PYMODULE'),
+  ('dns.ipv6',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/ipv6.py',
+   'PYMODULE'),
+  ('dns.message',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/message.py',
+   'PYMODULE'),
+  ('dns.name',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/name.py',
+   'PYMODULE'),
+  ('dns.nameserver',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/nameserver.py',
+   'PYMODULE'),
+  ('dns.node',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/node.py',
+   'PYMODULE'),
+  ('dns.opcode',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/opcode.py',
+   'PYMODULE'),
+  ('dns.query',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/query.py',
+   'PYMODULE'),
+  ('dns.quic',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/quic/__init__.py',
+   'PYMODULE'),
+  ('dns.quic._asyncio',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/quic/_asyncio.py',
+   'PYMODULE'),
+  ('dns.quic._common',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/quic/_common.py',
+   'PYMODULE'),
+  ('dns.quic._sync',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/quic/_sync.py',
+   'PYMODULE'),
+  ('dns.quic._trio',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/quic/_trio.py',
+   'PYMODULE'),
+  ('dns.rcode',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rcode.py',
+   'PYMODULE'),
+  ('dns.rdata',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdata.py',
+   'PYMODULE'),
+  ('dns.rdataclass',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdataclass.py',
+   'PYMODULE'),
+  ('dns.rdataset',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdataset.py',
+   'PYMODULE'),
+  ('dns.rdatatype',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdatatype.py',
+   'PYMODULE'),
+  ('dns.rdtypes',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AFSDB',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/AFSDB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AMTRELAY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/AMTRELAY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AVC',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/AVC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CAA',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/CAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDNSKEY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/CDNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDS',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/CDS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CERT',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/CERT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CNAME',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/CNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CSYNC',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/CSYNC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DLV',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/DLV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNAME',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/DNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNSKEY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/DNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DS',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/DS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI48',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/EUI48.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI64',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/EUI64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.GPOS',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/GPOS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HINFO',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/HINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HIP',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/HIP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ISDN',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/ISDN.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L32',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/L32.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L64',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/L64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LOC',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/LOC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LP',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/LP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.MX',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/MX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NID',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/NID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NINFO',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/NINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NS',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/NS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/NSEC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/NSEC3.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3PARAM',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/NSEC3PARAM.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPENPGPKEY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/OPENPGPKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPT',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/OPT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.PTR',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RESINFO',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/RESINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RP',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/RP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RRSIG',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/RRSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RT',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/RT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SMIMEA',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/SMIMEA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SOA',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/SOA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SPF',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/SPF.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SSHFP',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/SSHFP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TKEY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/TKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TLSA',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/TLSA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TSIG',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/TSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TXT',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/TXT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.URI',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/URI.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.WALLET',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/WALLET.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.X25',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/X25.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ZONEMD',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/ANY/ZONEMD.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/CH/__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH.A',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/CH/A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.A',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.AAAA',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/AAAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.APL',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/APL.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.DHCID',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/DHCID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.HTTPS',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/HTTPS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.IPSECKEY',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/IPSECKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.KX',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/KX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NAPTR',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/NAPTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/NSAP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP_PTR',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/NSAP_PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.PX',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/PX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SRV',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/SRV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SVCB',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/SVCB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.WKS',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/IN/WKS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dnskeybase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/dnskeybase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dsbase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/dsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.euibase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/euibase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.mxbase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/mxbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.nsbase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/nsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.svcbbase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/svcbbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.tlsabase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/tlsabase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.txtbase',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/txtbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rdtypes/util.py',
+   'PYMODULE'),
+  ('dns.renderer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/renderer.py',
+   'PYMODULE'),
+  ('dns.resolver',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/resolver.py',
+   'PYMODULE'),
+  ('dns.reversename',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/reversename.py',
+   'PYMODULE'),
+  ('dns.rrset',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/rrset.py',
+   'PYMODULE'),
+  ('dns.serial',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/serial.py',
+   'PYMODULE'),
+  ('dns.set',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/set.py',
+   'PYMODULE'),
+  ('dns.tokenizer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/tokenizer.py',
+   'PYMODULE'),
+  ('dns.transaction',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/transaction.py',
+   'PYMODULE'),
+  ('dns.tsig',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/tsig.py',
+   'PYMODULE'),
+  ('dns.ttl',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/ttl.py',
+   'PYMODULE'),
+  ('dns.update',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/update.py',
+   'PYMODULE'),
+  ('dns.version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/version.py',
+   'PYMODULE'),
+  ('dns.win32util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/win32util.py',
+   'PYMODULE'),
+  ('dns.wire',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/wire.py',
+   'PYMODULE'),
+  ('dns.xfr',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/xfr.py',
+   'PYMODULE'),
+  ('dns.zone',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/zone.py',
+   'PYMODULE'),
+  ('dns.zonefile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/zonefile.py',
+   'PYMODULE'),
+  ('dns.zonetypes',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/dns/zonetypes.py',
+   'PYMODULE'),
+  ('email', '/usr/lib/python3.12/email/__init__.py', 'PYMODULE'),
+  ('email._encoded_words',
+   '/usr/lib/python3.12/email/_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   '/usr/lib/python3.12/email/_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr', '/usr/lib/python3.12/email/_parseaddr.py', 'PYMODULE'),
+  ('email._policybase', '/usr/lib/python3.12/email/_policybase.py', 'PYMODULE'),
+  ('email.base64mime', '/usr/lib/python3.12/email/base64mime.py', 'PYMODULE'),
+  ('email.charset', '/usr/lib/python3.12/email/charset.py', 'PYMODULE'),
+  ('email.contentmanager',
+   '/usr/lib/python3.12/email/contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders', '/usr/lib/python3.12/email/encoders.py', 'PYMODULE'),
+  ('email.errors', '/usr/lib/python3.12/email/errors.py', 'PYMODULE'),
+  ('email.feedparser', '/usr/lib/python3.12/email/feedparser.py', 'PYMODULE'),
+  ('email.generator', '/usr/lib/python3.12/email/generator.py', 'PYMODULE'),
+  ('email.header', '/usr/lib/python3.12/email/header.py', 'PYMODULE'),
+  ('email.headerregistry',
+   '/usr/lib/python3.12/email/headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators', '/usr/lib/python3.12/email/iterators.py', 'PYMODULE'),
+  ('email.message', '/usr/lib/python3.12/email/message.py', 'PYMODULE'),
+  ('email.parser', '/usr/lib/python3.12/email/parser.py', 'PYMODULE'),
+  ('email.policy', '/usr/lib/python3.12/email/policy.py', 'PYMODULE'),
+  ('email.quoprimime', '/usr/lib/python3.12/email/quoprimime.py', 'PYMODULE'),
+  ('email.utils', '/usr/lib/python3.12/email/utils.py', 'PYMODULE'),
+  ('fnmatch', '/usr/lib/python3.12/fnmatch.py', 'PYMODULE'),
+  ('fractions', '/usr/lib/python3.12/fractions.py', 'PYMODULE'),
+  ('frozenlist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/frozenlist/__init__.py',
+   'PYMODULE'),
+  ('ftplib', '/usr/lib/python3.12/ftplib.py', 'PYMODULE'),
+  ('getopt', '/usr/lib/python3.12/getopt.py', 'PYMODULE'),
+  ('getpass', '/usr/lib/python3.12/getpass.py', 'PYMODULE'),
+  ('gettext', '/usr/lib/python3.12/gettext.py', 'PYMODULE'),
+  ('glob', '/usr/lib/python3.12/glob.py', 'PYMODULE'),
+  ('gzip', '/usr/lib/python3.12/gzip.py', 'PYMODULE'),
+  ('hashlib', '/usr/lib/python3.12/hashlib.py', 'PYMODULE'),
+  ('hmac', '/usr/lib/python3.12/hmac.py', 'PYMODULE'),
+  ('html', '/usr/lib/python3.12/html/__init__.py', 'PYMODULE'),
+  ('html.entities', '/usr/lib/python3.12/html/entities.py', 'PYMODULE'),
+  ('http', '/usr/lib/python3.12/http/__init__.py', 'PYMODULE'),
+  ('http.client', '/usr/lib/python3.12/http/client.py', 'PYMODULE'),
+  ('http.cookiejar', '/usr/lib/python3.12/http/cookiejar.py', 'PYMODULE'),
+  ('http.cookies', '/usr/lib/python3.12/http/cookies.py', 'PYMODULE'),
+  ('http.server', '/usr/lib/python3.12/http/server.py', 'PYMODULE'),
+  ('idna',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/idna/__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/idna/core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/idna/idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/idna/intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/idna/package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/idna/uts46data.py',
+   'PYMODULE'),
+  ('importlib', '/usr/lib/python3.12/importlib/__init__.py', 'PYMODULE'),
+  ('importlib._abc', '/usr/lib/python3.12/importlib/_abc.py', 'PYMODULE'),
+  ('importlib._bootstrap',
+   '/usr/lib/python3.12/importlib/_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   '/usr/lib/python3.12/importlib/_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc', '/usr/lib/python3.12/importlib/abc.py', 'PYMODULE'),
+  ('importlib.machinery',
+   '/usr/lib/python3.12/importlib/machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   '/usr/lib/python3.12/importlib/metadata/__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   '/usr/lib/python3.12/importlib/metadata/_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   '/usr/lib/python3.12/importlib/metadata/_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   '/usr/lib/python3.12/importlib/metadata/_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   '/usr/lib/python3.12/importlib/metadata/_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   '/usr/lib/python3.12/importlib/metadata/_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   '/usr/lib/python3.12/importlib/metadata/_text.py',
+   'PYMODULE'),
+  ('importlib.readers', '/usr/lib/python3.12/importlib/readers.py', 'PYMODULE'),
+  ('importlib.resources',
+   '/usr/lib/python3.12/importlib/resources/__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   '/usr/lib/python3.12/importlib/resources/_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   '/usr/lib/python3.12/importlib/resources/_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   '/usr/lib/python3.12/importlib/resources/_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   '/usr/lib/python3.12/importlib/resources/_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   '/usr/lib/python3.12/importlib/resources/abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   '/usr/lib/python3.12/importlib/resources/readers.py',
+   'PYMODULE'),
+  ('importlib.util', '/usr/lib/python3.12/importlib/util.py', 'PYMODULE'),
+  ('inspect', '/usr/lib/python3.12/inspect.py', 'PYMODULE'),
+  ('ipaddress', '/usr/lib/python3.12/ipaddress.py', 'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('json', '/usr/lib/python3.12/json/__init__.py', 'PYMODULE'),
+  ('json.decoder', '/usr/lib/python3.12/json/decoder.py', 'PYMODULE'),
+  ('json.encoder', '/usr/lib/python3.12/json/encoder.py', 'PYMODULE'),
+  ('json.scanner', '/usr/lib/python3.12/json/scanner.py', 'PYMODULE'),
+  ('logging', '/usr/lib/python3.12/logging/__init__.py', 'PYMODULE'),
+  ('lzma', '/usr/lib/python3.12/lzma.py', 'PYMODULE'),
+  ('mimetypes', '/usr/lib/python3.12/mimetypes.py', 'PYMODULE'),
+  ('multidict',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/multidict/__init__.py',
+   'PYMODULE'),
+  ('multidict._abc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/multidict/_abc.py',
+   'PYMODULE'),
+  ('multidict._compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/multidict/_compat.py',
+   'PYMODULE'),
+  ('multidict._multidict_py',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/multidict/_multidict_py.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   '/usr/lib/python3.12/multiprocessing/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   '/usr/lib/python3.12/multiprocessing/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   '/usr/lib/python3.12/multiprocessing/context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   '/usr/lib/python3.12/multiprocessing/dummy/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   '/usr/lib/python3.12/multiprocessing/dummy/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   '/usr/lib/python3.12/multiprocessing/forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   '/usr/lib/python3.12/multiprocessing/heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   '/usr/lib/python3.12/multiprocessing/managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   '/usr/lib/python3.12/multiprocessing/pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   '/usr/lib/python3.12/multiprocessing/popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   '/usr/lib/python3.12/multiprocessing/popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   '/usr/lib/python3.12/multiprocessing/popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   '/usr/lib/python3.12/multiprocessing/popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   '/usr/lib/python3.12/multiprocessing/process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   '/usr/lib/python3.12/multiprocessing/queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   '/usr/lib/python3.12/multiprocessing/reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   '/usr/lib/python3.12/multiprocessing/resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   '/usr/lib/python3.12/multiprocessing/resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   '/usr/lib/python3.12/multiprocessing/shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   '/usr/lib/python3.12/multiprocessing/sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   '/usr/lib/python3.12/multiprocessing/spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   '/usr/lib/python3.12/multiprocessing/synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   '/usr/lib/python3.12/multiprocessing/util.py',
+   'PYMODULE'),
+  ('netrc', '/usr/lib/python3.12/netrc.py', 'PYMODULE'),
+  ('nturl2path', '/usr/lib/python3.12/nturl2path.py', 'PYMODULE'),
+  ('numbers', '/usr/lib/python3.12/numbers.py', 'PYMODULE'),
+  ('opcode', '/usr/lib/python3.12/opcode.py', 'PYMODULE'),
+  ('packaging',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/licenses/__init__.py',
+   'PYMODULE'),
+  ('packaging.licenses._spdx',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/licenses/_spdx.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/markers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/packaging/version.py',
+   'PYMODULE'),
+  ('pathlib', '/usr/lib/python3.12/pathlib.py', 'PYMODULE'),
+  ('pickle', '/usr/lib/python3.12/pickle.py', 'PYMODULE'),
+  ('pkgutil', '/usr/lib/python3.12/pkgutil.py', 'PYMODULE'),
+  ('platform', '/usr/lib/python3.12/platform.py', 'PYMODULE'),
+  ('pprint', '/usr/lib/python3.12/pprint.py', 'PYMODULE'),
+  ('propcache',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/propcache/__init__.py',
+   'PYMODULE'),
+  ('propcache._helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/propcache/_helpers.py',
+   'PYMODULE'),
+  ('propcache._helpers_py',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/propcache/_helpers_py.py',
+   'PYMODULE'),
+  ('propcache.api',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/propcache/api.py',
+   'PYMODULE'),
+  ('py_compile', '/usr/lib/python3.12/py_compile.py', 'PYMODULE'),
+  ('pydoc', '/usr/lib/python3.12/pydoc.py', 'PYMODULE'),
+  ('pydoc_data', '/usr/lib/python3.12/pydoc_data/__init__.py', 'PYMODULE'),
+  ('pydoc_data.topics', '/usr/lib/python3.12/pydoc_data/topics.py', 'PYMODULE'),
+  ('pymongo',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/__init__.py',
+   'PYMODULE'),
+  ('pymongo._asyncio_lock',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_asyncio_lock.py',
+   'PYMODULE'),
+  ('pymongo._asyncio_task',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_asyncio_task.py',
+   'PYMODULE'),
+  ('pymongo._azure_helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_azure_helpers.py',
+   'PYMODULE'),
+  ('pymongo._client_bulk_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_client_bulk_shared.py',
+   'PYMODULE'),
+  ('pymongo._csot',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_csot.py',
+   'PYMODULE'),
+  ('pymongo._gcp_helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_gcp_helpers.py',
+   'PYMODULE'),
+  ('pymongo._version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/_version.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/__init__.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.aggregation',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/aggregation.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.auth',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/auth.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.auth_aws',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/auth_aws.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.auth_oidc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/auth_oidc.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.bulk',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/bulk.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.change_stream',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/change_stream.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.client_bulk',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/client_bulk.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.client_session',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/client_session.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.collection',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/collection.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.command_cursor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/command_cursor.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.cursor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/cursor.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.database',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/database.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.encryption',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/encryption.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/helpers.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.mongo_client',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/mongo_client.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.monitor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/monitor.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.network',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/network.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.pool',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/pool.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.server',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/server.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.settings',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/settings.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.srv_resolver',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/srv_resolver.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.topology',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/topology.py',
+   'PYMODULE'),
+  ('pymongo.asynchronous.uri_parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/asynchronous/uri_parser.py',
+   'PYMODULE'),
+  ('pymongo.auth_oidc_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/auth_oidc_shared.py',
+   'PYMODULE'),
+  ('pymongo.auth_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/auth_shared.py',
+   'PYMODULE'),
+  ('pymongo.bulk_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/bulk_shared.py',
+   'PYMODULE'),
+  ('pymongo.change_stream',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/change_stream.py',
+   'PYMODULE'),
+  ('pymongo.client_options',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/client_options.py',
+   'PYMODULE'),
+  ('pymongo.client_session',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/client_session.py',
+   'PYMODULE'),
+  ('pymongo.collation',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/collation.py',
+   'PYMODULE'),
+  ('pymongo.collection',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/collection.py',
+   'PYMODULE'),
+  ('pymongo.command_cursor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/command_cursor.py',
+   'PYMODULE'),
+  ('pymongo.common',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/common.py',
+   'PYMODULE'),
+  ('pymongo.compression_support',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/compression_support.py',
+   'PYMODULE'),
+  ('pymongo.cursor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/cursor.py',
+   'PYMODULE'),
+  ('pymongo.cursor_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/cursor_shared.py',
+   'PYMODULE'),
+  ('pymongo.daemon',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/daemon.py',
+   'PYMODULE'),
+  ('pymongo.database',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/database.py',
+   'PYMODULE'),
+  ('pymongo.database_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/database_shared.py',
+   'PYMODULE'),
+  ('pymongo.driver_info',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/driver_info.py',
+   'PYMODULE'),
+  ('pymongo.encryption_options',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/encryption_options.py',
+   'PYMODULE'),
+  ('pymongo.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/errors.py',
+   'PYMODULE'),
+  ('pymongo.hello',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/hello.py',
+   'PYMODULE'),
+  ('pymongo.helpers_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/helpers_shared.py',
+   'PYMODULE'),
+  ('pymongo.lock',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/lock.py',
+   'PYMODULE'),
+  ('pymongo.logger',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/logger.py',
+   'PYMODULE'),
+  ('pymongo.max_staleness_selectors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/max_staleness_selectors.py',
+   'PYMODULE'),
+  ('pymongo.message',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/message.py',
+   'PYMODULE'),
+  ('pymongo.monitoring',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/monitoring.py',
+   'PYMODULE'),
+  ('pymongo.network_layer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/network_layer.py',
+   'PYMODULE'),
+  ('pymongo.ocsp_cache',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/ocsp_cache.py',
+   'PYMODULE'),
+  ('pymongo.ocsp_support',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/ocsp_support.py',
+   'PYMODULE'),
+  ('pymongo.operations',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/operations.py',
+   'PYMODULE'),
+  ('pymongo.periodic_executor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/periodic_executor.py',
+   'PYMODULE'),
+  ('pymongo.pool_options',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/pool_options.py',
+   'PYMODULE'),
+  ('pymongo.pool_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/pool_shared.py',
+   'PYMODULE'),
+  ('pymongo.pyopenssl_context',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/pyopenssl_context.py',
+   'PYMODULE'),
+  ('pymongo.read_concern',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/read_concern.py',
+   'PYMODULE'),
+  ('pymongo.read_preferences',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/read_preferences.py',
+   'PYMODULE'),
+  ('pymongo.response',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/response.py',
+   'PYMODULE'),
+  ('pymongo.results',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/results.py',
+   'PYMODULE'),
+  ('pymongo.saslprep',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/saslprep.py',
+   'PYMODULE'),
+  ('pymongo.server_api',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/server_api.py',
+   'PYMODULE'),
+  ('pymongo.server_description',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/server_description.py',
+   'PYMODULE'),
+  ('pymongo.server_selectors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/server_selectors.py',
+   'PYMODULE'),
+  ('pymongo.server_type',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/server_type.py',
+   'PYMODULE'),
+  ('pymongo.socket_checker',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/socket_checker.py',
+   'PYMODULE'),
+  ('pymongo.ssl_context',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/ssl_context.py',
+   'PYMODULE'),
+  ('pymongo.ssl_support',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/ssl_support.py',
+   'PYMODULE'),
+  ('pymongo.synchronous',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/__init__.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.aggregation',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/aggregation.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.auth',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/auth.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.auth_aws',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/auth_aws.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.auth_oidc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/auth_oidc.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.bulk',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/bulk.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.change_stream',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/change_stream.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.client_bulk',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/client_bulk.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.client_session',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/client_session.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.collection',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/collection.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.command_cursor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/command_cursor.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.cursor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.database',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/database.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.encryption',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/encryption.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.helpers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/helpers.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.mongo_client',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.monitor',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/monitor.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.network',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/network.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.pool',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/pool.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.server',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/server.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.settings',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/settings.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.srv_resolver',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/srv_resolver.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.topology',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py',
+   'PYMODULE'),
+  ('pymongo.synchronous.uri_parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/synchronous/uri_parser.py',
+   'PYMODULE'),
+  ('pymongo.topology_description',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/topology_description.py',
+   'PYMODULE'),
+  ('pymongo.typings',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/typings.py',
+   'PYMODULE'),
+  ('pymongo.uri_parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/uri_parser.py',
+   'PYMODULE'),
+  ('pymongo.uri_parser_shared',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/uri_parser_shared.py',
+   'PYMODULE'),
+  ('pymongo.write_concern',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/pymongo/write_concern.py',
+   'PYMODULE'),
+  ('qasync',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/qasync/__init__.py',
+   'PYMODULE'),
+  ('qasync._common',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/qasync/_common.py',
+   'PYMODULE'),
+  ('qasync._unix',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/qasync/_unix.py',
+   'PYMODULE'),
+  ('qasync._windows',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/qasync/_windows.py',
+   'PYMODULE'),
+  ('queue', '/usr/lib/python3.12/queue.py', 'PYMODULE'),
+  ('quopri', '/usr/lib/python3.12/quopri.py', 'PYMODULE'),
+  ('random', '/usr/lib/python3.12/random.py', 'PYMODULE'),
+  ('rlcompleter', '/usr/lib/python3.12/rlcompleter.py', 'PYMODULE'),
+  ('runpy', '/usr/lib/python3.12/runpy.py', 'PYMODULE'),
+  ('secrets', '/usr/lib/python3.12/secrets.py', 'PYMODULE'),
+  ('selectors', '/usr/lib/python3.12/selectors.py', 'PYMODULE'),
+  ('setuptools',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/__init__.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._discovery',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_discovery.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils._log',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/_modified.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/cmd.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/command/__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/command/bdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/command/build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/command/sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/compat/__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.numpy',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/compat/numpy.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/compat/py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C', '-', 'PYMODULE'),
+  ('setuptools._distutils.compilers.C.base',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/compilers/C/base.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/compilers/C/errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compilers.C.msvc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/compilers/C/msvc.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/filelist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_distutils/versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_imp.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_importlib.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_itertools.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_normalization.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_path.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_reqs.py',
+   'PYMODULE'),
+  ('setuptools._shutil',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_shutil.py',
+   'PYMODULE'),
+  ('setuptools._static',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_static.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools._vendor.backports',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/backports/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/backports/tarfile/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/backports/tarfile/compat/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/backports/tarfile/compat/py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/compat/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/compat/py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata/compat/py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco/context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco/functools/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco/text/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/more_itertools/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/more_itertools/more.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/more_itertools/recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging/version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/tomli/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/tomli/_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/tomli/_re.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/tomli/_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.typing_extensions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/typing_extensions.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/cli/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/cli/convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/cli/pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/cli/tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/cli/unpack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/vendored/packaging/version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel/wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/zipp/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/zipp/compat/__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/zipp/compat/py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/_vendor/zipp/glob.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/archive_util.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/__init__.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/build.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/command/setopt.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/compat/__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/compat/py310.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/compat/py311.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/compat/py39.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/formats.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/expand.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/config/setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/depends.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/discovery.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/dist.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/errors.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/extension.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/glob.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/installer.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/monkey.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/msvc.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/version.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/warnings.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/wheel.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/setuptools/windows_support.py',
+   'PYMODULE'),
+  ('shiboken6',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/shiboken6/__init__.py',
+   'PYMODULE'),
+  ('shlex', '/usr/lib/python3.12/shlex.py', 'PYMODULE'),
+  ('shutil', '/usr/lib/python3.12/shutil.py', 'PYMODULE'),
+  ('signal', '/usr/lib/python3.12/signal.py', 'PYMODULE'),
+  ('site', '/usr/lib/python3.12/site.py', 'PYMODULE'),
+  ('sitecustomize', '/usr/lib/python3.12/sitecustomize.py', 'PYMODULE'),
+  ('socket', '/usr/lib/python3.12/socket.py', 'PYMODULE'),
+  ('socketserver', '/usr/lib/python3.12/socketserver.py', 'PYMODULE'),
+  ('ssl', '/usr/lib/python3.12/ssl.py', 'PYMODULE'),
+  ('statistics', '/usr/lib/python3.12/statistics.py', 'PYMODULE'),
+  ('string', '/usr/lib/python3.12/string.py', 'PYMODULE'),
+  ('stringprep', '/usr/lib/python3.12/stringprep.py', 'PYMODULE'),
+  ('subprocess', '/usr/lib/python3.12/subprocess.py', 'PYMODULE'),
+  ('sysconfig', '/usr/lib/python3.12/sysconfig.py', 'PYMODULE'),
+  ('tarfile', '/usr/lib/python3.12/tarfile.py', 'PYMODULE'),
+  ('tempfile', '/usr/lib/python3.12/tempfile.py', 'PYMODULE'),
+  ('textwrap', '/usr/lib/python3.12/textwrap.py', 'PYMODULE'),
+  ('threading', '/usr/lib/python3.12/threading.py', 'PYMODULE'),
+  ('token', '/usr/lib/python3.12/token.py', 'PYMODULE'),
+  ('tokenize', '/usr/lib/python3.12/tokenize.py', 'PYMODULE'),
+  ('tomllib', '/usr/lib/python3.12/tomllib/__init__.py', 'PYMODULE'),
+  ('tomllib._parser', '/usr/lib/python3.12/tomllib/_parser.py', 'PYMODULE'),
+  ('tomllib._re', '/usr/lib/python3.12/tomllib/_re.py', 'PYMODULE'),
+  ('tomllib._types', '/usr/lib/python3.12/tomllib/_types.py', 'PYMODULE'),
+  ('tracemalloc', '/usr/lib/python3.12/tracemalloc.py', 'PYMODULE'),
+  ('tty', '/usr/lib/python3.12/tty.py', 'PYMODULE'),
+  ('typing', '/usr/lib/python3.12/typing.py', 'PYMODULE'),
+  ('unittest', '/usr/lib/python3.12/unittest/__init__.py', 'PYMODULE'),
+  ('unittest._log', '/usr/lib/python3.12/unittest/_log.py', 'PYMODULE'),
+  ('unittest.async_case',
+   '/usr/lib/python3.12/unittest/async_case.py',
+   'PYMODULE'),
+  ('unittest.case', '/usr/lib/python3.12/unittest/case.py', 'PYMODULE'),
+  ('unittest.loader', '/usr/lib/python3.12/unittest/loader.py', 'PYMODULE'),
+  ('unittest.main', '/usr/lib/python3.12/unittest/main.py', 'PYMODULE'),
+  ('unittest.mock', '/usr/lib/python3.12/unittest/mock.py', 'PYMODULE'),
+  ('unittest.result', '/usr/lib/python3.12/unittest/result.py', 'PYMODULE'),
+  ('unittest.runner', '/usr/lib/python3.12/unittest/runner.py', 'PYMODULE'),
+  ('unittest.signals', '/usr/lib/python3.12/unittest/signals.py', 'PYMODULE'),
+  ('unittest.suite', '/usr/lib/python3.12/unittest/suite.py', 'PYMODULE'),
+  ('unittest.util', '/usr/lib/python3.12/unittest/util.py', 'PYMODULE'),
+  ('urllib', '/usr/lib/python3.12/urllib/__init__.py', 'PYMODULE'),
+  ('urllib.error', '/usr/lib/python3.12/urllib/error.py', 'PYMODULE'),
+  ('urllib.parse', '/usr/lib/python3.12/urllib/parse.py', 'PYMODULE'),
+  ('urllib.request', '/usr/lib/python3.12/urllib/request.py', 'PYMODULE'),
+  ('urllib.response', '/usr/lib/python3.12/urllib/response.py', 'PYMODULE'),
+  ('uuid', '/usr/lib/python3.12/uuid.py', 'PYMODULE'),
+  ('webbrowser', '/usr/lib/python3.12/webbrowser.py', 'PYMODULE'),
+  ('xml', '/usr/lib/python3.12/xml/__init__.py', 'PYMODULE'),
+  ('xml.parsers', '/usr/lib/python3.12/xml/parsers/__init__.py', 'PYMODULE'),
+  ('xml.parsers.expat', '/usr/lib/python3.12/xml/parsers/expat.py', 'PYMODULE'),
+  ('xml.sax', '/usr/lib/python3.12/xml/sax/__init__.py', 'PYMODULE'),
+  ('xml.sax._exceptions',
+   '/usr/lib/python3.12/xml/sax/_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   '/usr/lib/python3.12/xml/sax/expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler', '/usr/lib/python3.12/xml/sax/handler.py', 'PYMODULE'),
+  ('xml.sax.saxutils', '/usr/lib/python3.12/xml/sax/saxutils.py', 'PYMODULE'),
+  ('xml.sax.xmlreader', '/usr/lib/python3.12/xml/sax/xmlreader.py', 'PYMODULE'),
+  ('xmlrpc', '/usr/lib/python3.12/xmlrpc/__init__.py', 'PYMODULE'),
+  ('xmlrpc.client', '/usr/lib/python3.12/xmlrpc/client.py', 'PYMODULE'),
+  ('yarl',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/__init__.py',
+   'PYMODULE'),
+  ('yarl._parse',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_parse.py',
+   'PYMODULE'),
+  ('yarl._path',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_path.py',
+   'PYMODULE'),
+  ('yarl._query',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_query.py',
+   'PYMODULE'),
+  ('yarl._quoters',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_quoters.py',
+   'PYMODULE'),
+  ('yarl._quoting',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_quoting.py',
+   'PYMODULE'),
+  ('yarl._quoting_py',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_quoting_py.py',
+   'PYMODULE'),
+  ('yarl._url',
+   '/home/leonardor/Desktop/LARP Dispatch Port/Dispatch Source '
+   'Code/venv/lib/python3.12/site-packages/yarl/_url.py',
+   'PYMODULE'),
+  ('zipfile', '/usr/lib/python3.12/zipfile/__init__.py', 'PYMODULE'),
+  ('zipfile._path',
+   '/usr/lib/python3.12/zipfile/_path/__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   '/usr/lib/python3.12/zipfile/_path/glob.py',
+   'PYMODULE'),
+  ('zipimport', '/usr/lib/python3.12/zipimport.py', 'PYMODULE')])
