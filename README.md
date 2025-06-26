@@ -1,7 +1,8 @@
 The Linux Port of D/C Dashboard, giving that extra reach for all of our community members.
 
+THIS PORT IS NOW APART OF THE OFFICAL GITHUB, THIS REPO IS NOW NO LONGER MAINTAINED AND NO LONGER UP TO DATE.
+PLEASE REFER TO THE MAIN REPO FOR FURTHER UPDATES.
 
-NO LONGER MAINTAINED AS OF 6/24/25
-Thank you for being involved!
 
+THANK YOU.
 -LXR
