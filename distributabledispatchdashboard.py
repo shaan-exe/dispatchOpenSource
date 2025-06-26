@@ -15,6 +15,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, QTimer
 from qasync import QEventLoop
 from pymongo import MongoClient
+import aiohttp
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -22,9 +23,28 @@ MONGODB_URI = "mongodb+srv://shaanmakim:BRlYx4onHbCPCryb@dispatch.w3oysrm.mongod
 client = MongoClient(MONGODB_URI)
 db = client['dispatch']
 
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1382943882202976336/DU2iSEJubmKMgXY2lnTtHfMzwX7KEUrjADP-OPHIIzUuRg0bOrA33UioPIPemXrLqkUo"  
+
+async def send_webhook_log(title: str, description: str, color: int = 0x1E90FF, fields: list = None):
+    embed = {
+        "title": title,    
+        "description": description,
+        "color": color,
+        "timestamp": datetime.datetime.utcnow().isoformat(),
+        "fields": fields or []
+    }
+    data = {
+        "embeds": [embed]
+    }
+    async with aiohttp.ClientSession() as session:
+        async with session.post(DISCORD_WEBHOOK_URL, json=data) as resp:
+            if resp.status not in (200, 204):
+                logging.error(f"Failed to send webhook log: {resp.status} {await resp.text()}")
+
 async def run_blocking(func, *args, **kwargs):
     loop = asyncio.get_event_loop()
     return await loop.run_in_executor(None, lambda: func(*args, **kwargs))
+
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
@@ -33,7 +53,8 @@ bot = commands.Bot(command_prefix='!!', intents=intents)
 
 STATUS_CHOICES = [
     "Available", "Enroute", "On Scene", "Unavailable",
-    "Out of Service", "Returning to Station", "Training"
+    "Out of Service", "Returning to Station", "Training",
+    "Patrolling", "E/R to hospital."
 ]
 
 PRIORITY_MAP = {
@@ -56,6 +77,18 @@ def is_dispatcher_check():
     def predicate(interaction: discord.Interaction) -> bool:
         return (interaction.user.id in dispatch_data['dispatchers']) or interaction.user.guild_permissions.administrator
     return app_commands.check(predicate)
+
+async def load_chat_messages():
+    msgs =  db.chat_messages.find().sort("timestamp", 1).limit(100).to_list(length=100)
+    return msgs
+
+async def add_chat_message(username: str, message: str):
+    doc = {
+        "username": username,
+        "message": message,
+        "timestamp": datetime.datetime.utcnow()
+    }
+    await run_blocking(db.chat_messages.insert_one, doc)
 
 async def add_unit(user_id: int, unit_name: str, user_display_name: str) -> Tuple[bool, str]:
     unit_name_clean = unit_name.strip()
@@ -152,6 +185,72 @@ async def close_call(call_id: str) -> Tuple[bool, str]:
     logging.info(f"Call {call_id} closed.")
     return True, f"Call '{call_id}' closed."
 
+class ChatDialog(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.username = None
+        self.layout = QVBoxLayout(self)
+
+        self.username_label = QLabel("Enter your name:")
+        self.layout.addWidget(self.username_label)
+
+        self.username_input = QLineEdit()
+        self.layout.addWidget(self.username_input)
+
+        self.btn_start = QPushButton("Start Chat")
+        self.layout.addWidget(self.btn_start)
+        self.btn_start.clicked.connect(self.start_chat)
+
+        self.chat_display = QTextEdit()
+        self.chat_display.setReadOnly(True)
+        self.chat_display.hide()
+        self.layout.addWidget(self.chat_display)
+
+        self.message_input = QLineEdit()
+        self.message_input.setPlaceholderText("Type your message and press Enter...")
+        self.message_input.returnPressed.connect(self.send_message)
+        self.message_input.hide()
+        self.layout.addWidget(self.message_input)
+
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(lambda: asyncio.create_task(self.refresh_messages()))
+
+    def start_chat(self):
+        name = self.username_input.text().strip()
+        if not name:
+            QMessageBox.warning(self, "Input error", "Please enter your name to start chat.")
+            return
+        self.username = name
+        self.username_label.hide()
+        self.username_input.hide()
+        self.btn_start.hide()
+
+        self.chat_display.show()
+        self.message_input.show()
+        self.timer.start(3000)  
+        asyncio.create_task(self.refresh_messages())
+
+    async def refresh_messages(self):
+        try:
+            msgs = await load_chat_messages()
+            self.chat_display.clear()
+            for msg in msgs:
+                timestamp = msg.get("timestamp")
+                timestr = timestamp.strftime('%H:%M:%S') if timestamp else ""
+                user = msg.get("username", "Unknown")
+                text = msg.get("message", "")
+                self.chat_display.append(f"[{timestr}] <b>{user}:</b> {text}")
+            self.chat_display.verticalScrollBar().setValue(self.chat_display.verticalScrollBar().maximum())
+        except Exception as e:
+            self.chat_display.append(f"<i>Error loading chat: {str(e)}</i>")
+
+    def send_message(self):
+        msg = self.message_input.text().strip()
+        if not msg or not self.username:
+            return
+        self.message_input.clear()
+        asyncio.create_task(add_chat_message(self.username, msg))
+
 class DispatchDashboard(QWidget):
     SPECIFIC_GUILD_ID = 1382497395279003738  
 
@@ -199,6 +298,7 @@ class DispatchDashboard(QWidget):
 
         self.tabs = QTabWidget()
         layout.addWidget(self.tabs)
+
         self._add_tab_add_unit()
         self._add_tab_remove_unit()
         self._add_tab_update_status()
@@ -207,19 +307,28 @@ class DispatchDashboard(QWidget):
         self._add_tab_remove_unit_call()
         self._add_tab_close_call()
         self._add_tab_manual()
+        self._add_tab_chat()
+
+    def _add_tab_chat(self):
+        self.tab_chat = QWidget()
+        self.tabs.addTab(self.tab_chat, "Chat")
+        layout = QVBoxLayout(self.tab_chat)
+        self.chat_widget = ChatDialog(self)
+        layout.addWidget(self.chat_widget)
 
     def _init_live_update_timer(self):
         self.timer = QTimer(self)
-        self.timer.setInterval(4000)  
+        self.timer.setInterval(4000)
         self.timer.timeout.connect(lambda: asyncio.create_task(self.update_live_views()))
         self.timer.start()
 
     async def update_live_views(self):
         await self._update_calls_table()
         await self._update_units_table()
+        await self.populate_call_id_combos()
 
-        calls = list(db.active_calls.find().to_list(None))
-        units = list(db.units_on_duty.find().to_list(None))
+        calls =  db.active_calls.find().to_list(None)
+        units =  db.units_on_duty.find().to_list(None)
 
         total_calls = len(calls)
         active_calls = sum(1 for c in calls if c.get("status") == "Active")
@@ -227,7 +336,7 @@ class DispatchDashboard(QWidget):
         self.status_bar.setText(f"Total Calls: {total_calls} (Active: {active_calls}) | Units On Duty: {total_units}")
 
     async def _update_calls_table(self):
-        calls = list(db.active_calls.find().to_list(None))
+        calls =  db.active_calls.find().to_list(None)
 
         self.calls_table.setRowCount(len(calls))
         for row, cdata in enumerate(calls):
@@ -241,7 +350,7 @@ class DispatchDashboard(QWidget):
             assigned_units = cdata.get("assigned_units", [])
             assigned_names = []
             for uid in assigned_units:
-                unit_doc = await db.units_on_duty.find_one({"user_id": uid})
+                unit_doc =  db.units_on_duty.find_one({"user_id": uid})
                 if unit_doc:
                     assigned_names.append(unit_doc.get("name", str(uid)))
                 else:
@@ -249,10 +358,17 @@ class DispatchDashboard(QWidget):
             self.calls_table.setItem(row, 6, QTableWidgetItem(", ".join(assigned_names)))
 
     async def _update_units_table(self):
-        units = list(db.units_on_duty.find().to_list(None))
+        units =  db.units_on_duty.find().to_list(None)
         self.units_table.setRowCount(len(units))
         for row, udata in enumerate(units):
-            self.units_table.setItem(row, 0, QTableWidgetItem(str(udata.get("user_id", ""))))
+            user_id = udata.get("user_id", None)
+
+            user_info = next((u for u in self.users if u['id'] == user_id), None)
+            if user_info:
+                user_display = f"{user_info['display_name']}#{user_info['discriminator']} ({user_id})"
+            else:
+                user_display = str(user_id) if user_id is not None else ""
+            self.units_table.setItem(row, 0, QTableWidgetItem(user_display))
             self.units_table.setItem(row, 1, QTableWidgetItem(udata.get("name", "")))
             self.units_table.setItem(row, 2, QTableWidgetItem(udata.get("status", "")))
             self.units_table.setItem(row, 3, QTableWidgetItem(str(udata.get("call_id", "None"))))
@@ -291,8 +407,8 @@ class DispatchDashboard(QWidget):
         form = QFormLayout()
         l.addLayout(form)
 
-        self.remove_unit_user_combo = QComboBox()
-        form.addRow("Select User:", self.remove_unit_user_combo)
+        self.remove_unit_user_combo_onduty = QComboBox()
+        form.addRow("Select User:", self.remove_unit_user_combo_onduty)
 
         btn = QPushButton("Remove Unit")
         btn.clicked.connect(self.handle_remove_unit)
@@ -368,8 +484,8 @@ class DispatchDashboard(QWidget):
         form = QFormLayout()
         l.addLayout(form)
 
-        self.assign_call_id = QLineEdit()
-        form.addRow("Call ID:", self.assign_call_id)
+        self.assign_call_id_combo = QComboBox()
+        form.addRow("Call ID:", self.assign_call_id_combo)
 
         self.assign_unit_user_combo = QComboBox()
         form.addRow("Select User:", self.assign_unit_user_combo)
@@ -390,8 +506,8 @@ class DispatchDashboard(QWidget):
         form = QFormLayout()
         l.addLayout(form)
 
-        self.remove_unit_call_call_id = QLineEdit()
-        form.addRow("Call ID:", self.remove_unit_call_call_id)
+        self.remove_unit_call_id_combo = QComboBox()
+        form.addRow("Call ID:", self.remove_unit_call_id_combo)
 
         self.remove_unit_call_user_combo = QComboBox()
         form.addRow("Select User:", self.remove_unit_call_user_combo)
@@ -412,8 +528,8 @@ class DispatchDashboard(QWidget):
         form = QFormLayout()
         l.addLayout(form)
 
-        self.close_call_id = QLineEdit()
-        form.addRow("Call ID:", self.close_call_id)
+        self.close_call_id_combo = QComboBox()
+        form.addRow("Call ID:", self.close_call_id_combo)
 
         btn = QPushButton("Close Call")
         btn.clicked.connect(self.handle_close_call)
@@ -441,18 +557,53 @@ class DispatchDashboard(QWidget):
         self.manual_command_output.setReadOnly(True)
         l.addWidget(self.manual_command_output)
 
-    def populate_user_comboboxes(self):
-        display_names = [f"{u['display_name']}#{u['discriminator']}" for u in self.users]
-        combos = [
-            self.add_unit_user_combo,
-            self.remove_unit_user_combo,
-            self.update_status_user_combo,
-            self.assign_unit_user_combo,
-            self.remove_unit_call_user_combo,
-        ]
+    async def populate_user_comboboxes(self):
+        on_duty_units =  db.units_on_duty.find().to_list(length=None)
+
+        display_names = []
+        for u in on_duty_units:
+            matching_user = next((user for user in self.users if user['id'] == u.get('user_id')), None)
+            if matching_user:
+                display_names.append(f"{matching_user['display_name']}#{matching_user['discriminator']}")
+            else:
+                display_names.append(str(u.get('user_id', 'Unknown User')))
+
+        combos = []
+        if hasattr(self, 'remove_unit_user_combo_onduty'):
+            combos.append(self.remove_unit_user_combo_onduty)
+        if hasattr(self, 'update_status_user_combo'):
+            combos.append(self.update_status_user_combo)
+        if hasattr(self, 'assign_unit_user_combo'):
+            combos.append(self.assign_unit_user_combo)
+        if hasattr(self, 'remove_unit_call_user_combo'):
+            combos.append(self.remove_unit_call_user_combo)
+
         for combo in combos:
             combo.clear()
             combo.addItems(display_names)
+
+    async def populate_user_comboboxes_onduty(self):
+        display_names = [f"{u['display_name']}#{u['discriminator']}" for u in self.users]
+
+        if hasattr(self, 'add_unit_user_combo'):
+            self.add_unit_user_combo.clear()
+            self.add_unit_user_combo.addItems(display_names)
+
+    async def populate_call_id_combos(self):
+        calls =  db.active_calls.find({"status": "Active"}).to_list(length=100)
+        call_ids = [c.get("call_id", "") for c in calls]
+
+        combos = []
+        if hasattr(self, 'assign_call_id_combo'):
+            combos.append(self.assign_call_id_combo)
+        if hasattr(self, 'remove_unit_call_id_combo'):
+            combos.append(self.remove_unit_call_id_combo)
+        if hasattr(self, 'close_call_id_combo'):
+            combos.append(self.close_call_id_combo)
+
+        for combo in combos:
+            combo.clear()
+            combo.addItems(call_ids)
 
     def user_id_by_display(self, display_text):
         for u in self.users:
@@ -470,13 +621,15 @@ class DispatchDashboard(QWidget):
     def show_message_box(self, title, message):
         QMessageBox.warning(self, title, message)
 
-    def run_async_task(self, coro, output_widget: QTextEdit, success_msg: str = None):
+    def run_async_task(self, coro, output_widget: QTextEdit, success_msg: str = None, on_success: Optional[callable] = None):
         async def wrapper():
             try:
                 success, msg = await coro
                 out_text = success_msg if success else f"Error: {msg}"
                 self._set_text_threadsafe(output_widget, out_text)
                 self._set_status_threadsafe(out_text)
+                if success and on_success:
+                    await on_success()
             except Exception as e:
                 self._set_text_threadsafe(output_widget, f"Exception: {str(e)}")
                 logging.exception("Error executing command from GUI")
@@ -490,28 +643,48 @@ class DispatchDashboard(QWidget):
             self.show_message_box("Input error", "Please select user and enter unit callsign.")
             return
         self._set_text_threadsafe(self.add_unit_output, "Adding unit...")
-        self.run_async_task(add_unit(user_id, unit_callsign, display_name), self.add_unit_output,
-                            f"Added unit '{unit_callsign}' for {user_display}")
+
+        async def refresh_and_log():
+            success, msg = await add_unit(user_id, unit_callsign, display_name)
+            if success:
+                await self.populate_user_comboboxes()
+                await send_webhook_log(
+                    "Unit Added",
+                    f"User **{display_name}** is now on duty as `{unit_callsign}`.",
+                    color=0x1E90FF
+                )
+            return success, msg
+
+        self.run_async_task(
+            refresh_and_log(),
+            self.add_unit_output,
+            f"Added unit '{unit_callsign}' for {user_display}"
+        )
 
     def handle_remove_unit(self):
-        user_display = self.remove_unit_user_combo.currentText()
+        user_display = self.remove_unit_user_combo_onduty.currentText()
         user_id, _ = self.user_id_by_display(user_display)
         if not user_id:
             self.show_message_box("Input error", "Please select a user.")
             return
         self._set_text_threadsafe(self.remove_unit_output, "Removing unit...")
-        self.run_async_task(remove_unit(user_id), self.remove_unit_output, f"Removed unit for {user_display}")
 
-    def handle_update_status(self):
-        user_display = self.update_status_user_combo.currentText()
-        user_id, _ = self.user_id_by_display(user_display)
-        status = self.update_status_enum.currentText()
-        if not user_id or not status:
-            self.show_message_box("Input error", "Please select user and status.")
-            return
-        self._set_text_threadsafe(self.update_status_output, "Updating status...")
-        self.run_async_task(update_unit_status(user_id, status), self.update_status_output,
-                            f"Status updated to '{status}' for {user_display}")
+        async def refresh_and_log():
+            success, msg = await remove_unit(user_id)
+            if success:
+                await self.populate_user_comboboxes()
+                await send_webhook_log(
+                    "Unit Removed",
+                    f"User `{user_display}` has been removed from duty.",
+                    color=0xff0000
+                )
+            return success, msg
+
+        self.run_async_task(
+            refresh_and_log(),
+            self.remove_unit_output,
+            f"Removed unit for {user_display}"
+        )
 
     def handle_create_call(self):
         callid = self.create_call_id.text().strip()
@@ -524,36 +697,122 @@ class DispatchDashboard(QWidget):
             self.show_message_box("Input error", "Call ID, description, and location are required.")
             return
         self._set_text_threadsafe(self.create_call_output, "Creating call...")
-        self.run_async_task(create_call(callid, desc, loc, ctype, prio), self.create_call_output, f"Call '{callid}' created.")
+
+        async def refresh_calls_and_log():
+            success, msg = await create_call(callid, desc, loc, ctype, prio)
+            if success:
+                await self.populate_call_id_combos()
+                await send_webhook_log(
+                    "Call Created",
+                    f"Call `{callid}` created.\n**Description:** {desc}\n**Location:** {loc}\n**Type:** {ctype}\n**Priority:** {PRIORITY_MAP.get(prio, str(prio))}",
+                    color=0x00ff00
+                )
+            return success, msg
+
+        self.run_async_task(
+            refresh_calls_and_log(),
+            self.create_call_output,
+            f"Call '{callid}' created."
+        )
+
+    def handle_close_call(self):
+        callid = self.close_call_id_combo.currentText()
+        if not callid:
+            self.show_message_box("Input error", "Call ID required.")
+            return
+        self._set_text_threadsafe(self.close_call_output, "Closing call...")
+
+        async def refresh_calls_and_log():
+            success, msg = await close_call(callid)
+            if success:
+                await self.populate_call_id_combos()
+                await send_webhook_log(
+                    "Call Closed",
+                    f"Call `{callid}` has been closed.",
+                    color=0xff4500
+                )
+            return success, msg
+
+        self.run_async_task(
+            refresh_calls_and_log(),
+            self.close_call_output,
+            f"Call '{callid}' closed."
+        )
 
     def handle_assign_unit(self):
-        callid = self.assign_call_id.text().strip()
+        callid = self.assign_call_id_combo.currentText()
         user_display = self.assign_unit_user_combo.currentText()
         user_id, _ = self.user_id_by_display(user_display)
         if not callid or not user_id:
             self.show_message_box("Input error", "Call ID and user selection required.")
             return
         self._set_text_threadsafe(self.assign_unit_output, "Assigning unit...")
-        self.run_async_task(assign_unit_to_call(callid, user_id), self.assign_unit_output, f"Unit assigned to call '{callid}'.")
+
+        async def assign_and_log():
+            success, msg = await assign_unit_to_call(callid, user_id)
+            if success:
+                await send_webhook_log(
+                    "Unit Assigned",
+                    f"Unit `{user_display}` assigned to call `{callid}`.",
+                    color=0x1E90FF
+                )
+            return success, msg
+
+        self.run_async_task(
+            assign_and_log(),
+            self.assign_unit_output,
+            f"Unit assigned to call '{callid}'."
+        )
 
     def handle_remove_unit_from_call(self):
-        callid = self.remove_unit_call_call_id.text().strip()
+        callid = self.remove_unit_call_id_combo.currentText()
         user_display = self.remove_unit_call_user_combo.currentText()
         user_id, _ = self.user_id_by_display(user_display)
         if not callid or not user_id:
             self.show_message_box("Input error", "Call ID and user selection required.")
             return
         self._set_text_threadsafe(self.remove_unit_call_output, "Removing unit from call...")
-        self.run_async_task(remove_unit_from_call(callid, user_id), self.remove_unit_call_output,
-                            f"Unit removed from call '{callid}'.")
 
-    def handle_close_call(self):
-        callid = self.close_call_id.text().strip()
-        if not callid:
-            self.show_message_box("Input error", "Call ID required.")
+        async def remove_and_log():
+            success, msg = await remove_unit_from_call(callid, user_id)
+            if success:
+                await send_webhook_log(
+                    "Unit Removed from Call",
+                    f"Unit `{user_display}` removed from call `{callid}`.",
+                    color=0xff0000
+                )
+            return success, msg
+
+        self.run_async_task(
+            remove_and_log(),
+            self.remove_unit_call_output,
+            f"Unit removed from call '{callid}'."
+        )
+
+    def handle_update_status(self):
+        user_display = self.update_status_user_combo.currentText()
+        user_id, _ = self.user_id_by_display(user_display)
+        status = self.update_status_enum.currentText()
+        if not user_id or not status:
+            self.show_message_box("Input error", "Please select user and status.")
             return
-        self._set_text_threadsafe(self.close_call_output, "Closing call...")
-        self.run_async_task(close_call(callid), self.close_call_output, f"Call '{callid}' closed.")
+        self._set_text_threadsafe(self.update_status_output, "Updating status...")
+
+        async def update_and_log():
+            success, msg = await update_unit_status(user_id, status)
+            if success:
+                await send_webhook_log(
+                    "Status Updated",
+                    f"Unit `{user_display}` status changed to '{status}'.",
+                    color=0x1E90FF
+                )
+            return success, msg
+
+        self.run_async_task(
+            update_and_log(),
+            self.update_status_output,
+            f"Status updated to '{status}' for {user_display}"
+        )
 
     def handle_send_manual(self):
         cmd_text = self.manual_command_input.text().strip()
@@ -577,18 +836,41 @@ class DispatchDashboard(QWidget):
                     user_id = int(parts[1])
                     unit_name = ' '.join(parts[2:])
                     display_name = next((u['display_name'] for u in self.users if u['id'] == user_id), f"User -{user_id}")
-                    return await add_unit(user_id, unit_name, display_name)
+                    result = await add_unit(user_id, unit_name, display_name)
+                    if result[0]:
+                        await self.populate_user_comboboxes()
+                        await send_webhook_log(
+                            "Unit Added",
+                            f"User **{display_name}** is now on duty as `{unit_name}`.",
+                            color=0x1E90FF
+                        )
+                    return result
                 elif cmd == 'remove_unit':
                     if len(parts) < 2:
                         return False, "Usage: remove_unit <user_id>"
                     user_id = int(parts[1])
-                    return await remove_unit(user_id)
+                    result = await remove_unit(user_id)
+                    if result[0]:
+                        await self.populate_user_comboboxes()
+                        await send_webhook_log(
+                            "Unit Removed",
+                            f"User with ID `{user_id}` has been removed from duty.",
+                            color=0xff0000
+                        )
+                    return result
                 elif cmd == 'update_status':
                     if len(parts) < 3:
                         return False, "Usage: update_status <user_id> <status>"
                     user_id = int(parts[1])
                     status_val = ' '.join(parts[2:])
-                    return await update_unit_status(user_id, status_val)
+                    result = await update_unit_status(user_id, status_val)
+                    if result[0]:
+                        await send_webhook_log(
+                            "Status Updated",
+                            f"Unit with ID `{user_id}` status changed to '{status_val}'.",
+                            color=0x1E90FF
+                        )
+                    return result
                 elif cmd == 'create_call':
                     if len(parts) < 6:
                         return False, "Usage: create_call <call_id> <description> <location> <call_type> <priority>"
@@ -600,24 +882,54 @@ class DispatchDashboard(QWidget):
                         priority = int(parts[5])
                     except ValueError:
                         return False, "Priority must be a number (1-4)."
-                    return await create_call(call_id, description, location, call_type, priority)
+                    result = await create_call(call_id, description, location, call_type, priority)
+                    if result[0]:
+                        await self.populate_call_id_combos()
+                        await send_webhook_log(
+                            "Call Created",
+                            f"Call `{call_id}` created.\n**Description:** {description}\n**Location:** {location}\n**Type:** {call_type}\n**Priority:** {PRIORITY_MAP.get(priority, str(priority))}",
+                            color=0x00ff00
+                        )
+                    return result
                 elif cmd == 'assign_unit':
                     if len(parts) < 3:
                         return False, "Usage: assign_unit <call_id> <user_id>"
                     call_id = parts[1]
                     user_id = int(parts[2])
-                    return await assign_unit_to_call(call_id, user_id)
+                    result = await assign_unit_to_call(call_id, user_id)
+                    if result[0]:
+                        await send_webhook_log(
+                            "Unit Assigned",
+                            f"Unit with ID `{user_id}` assigned to call `{call_id}`.",
+                            color=0x1E90FF
+                        )
+                    return result
                 elif cmd == 'remove_unit_from_call':
                     if len(parts) < 3:
                         return False, "Usage: remove_unit_from_call <call_id> <user_id>"
                     call_id = parts[1]
                     user_id = int(parts[2])
-                    return await remove_unit_from_call(call_id, user_id)
+                    result = await remove_unit_from_call(call_id, user_id)
+                    if result[0]:
+                        await send_webhook_log(
+                            "Unit Removed from Call",
+                            f"Unit with ID `{user_id}` removed from call `{call_id}`.",
+                            color=0xff0000
+                        )
+                    return result
                 elif cmd == 'close_call':
                     if len(parts) < 2:
                         return False, "Usage: close_call <call_id>"
                     call_id = parts[1]
-                    return await close_call(call_id)
+                    result = await close_call(call_id)
+                    if result[0]:
+                        await self.populate_call_id_combos()
+                        await send_webhook_log(
+                            "Call Closed",
+                            f"Call `{call_id}` closed.",
+                            color=0xff4500
+                        )
+                    return result
                 else:
                     return False, f"Unknown command '{cmd}'."
             except Exception as e:
@@ -650,7 +962,10 @@ class DispatchDashboard(QWidget):
                     'discriminator': member.discriminator
                 })
 
-            self.populate_user_comboboxes()
+            await self.populate_user_comboboxes_onduty()  
+            await self.populate_user_comboboxes()         
+            await self.populate_call_id_combos()           
+
             self._set_status_threadsafe(f"Loaded {len(self.users)} users from guild '{guild.name}'.")
             logging.info(f"Loaded {len(self.users)} users from guild '{guild.name}'.")
         except Exception as e:
@@ -675,12 +990,12 @@ if __name__ == "__main__":
     asyncio.set_event_loop(loop)
 
     async def main():
-        bot_task = asyncio.create_task(bot.start('sorrynoleakingmytokenlol'))  
+        bot_task = asyncio.create_task(bot.start(''))  
 
         while not bot.is_ready():
             await asyncio.sleep(0.1)
         await dashboard.async_init()
-        await bot_task  
+        await bot_task
 
     loop.create_task(main())
 
